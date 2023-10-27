@@ -1,0 +1,171 @@
+.DrawerList-Item{
+  display: flex;
+  flex-direction: column;
+  color: #1C4980;
+
+}
+.DrawerList{
+  padding: 20px;
+  width:140px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+.btn1{
+  border-radius: 5px;
+  background-color: rgb(244, 175, 175);
+  color: red;
+  border: none;
+}
+.MainBody{
+  display: flex;
+  gap: 30px;
+  color: #1C4980;
+  background-color: rgb(246, 246, 246);
+}
+.x{
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+.MainBody_head{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid rgb(224, 224, 224); */
+}
+.details{
+  display: flex;
+  /* padding: 10px; */
+  color: #1C4980;
+  border-radius: 10px;
+  border: 1px solid rgb(224, 224, 224);
+}
+.details_head{
+  font-weight: bold;
+}
+.Assessment{
+  min-width: 162px;
+  border-right: 1px solid rgb(224, 224, 224);
+  padding: 10px;
+
+}
+.candidates{
+  min-width: 369px;
+  border-right: 1px solid rgb(224, 224, 224);
+  padding: 10px;
+
+}
+.source{
+  min-width: 499px;
+  border-right: 1px solid rgb(224, 224, 224);
+  padding: 10px;
+
+}
+.purpose{
+  min-width: 188px;
+  padding: 10px;
+
+}
+.details_tag{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 16px;
+  padding: 0px;
+}
+.count{
+  display: flex;
+}
+.icon1,.icon2{
+  padding: 10px;
+  background-color: #EBE8FD;
+  color:rgb(85, 13, 151);
+  border-radius: 8px;
+  text-align: center;
+}
+.icon3{
+  padding: 10px;
+  background-color: #FCE8EF;
+  color:#ec6997;
+  border-radius: 8px;
+  text-align: center;
+}
+.icon4{
+  padding: 10px;
+  background-color: rgba(157, 157, 247, 0.356);
+  color:blue;
+  border-radius: 8px;
+  text-align: center;
+}
+.tag_line{
+  border-right:1px solid rgb(224, 224, 224);
+  padding-right: 10px;
+}
+.allcards{
+  display: flex;
+  gap: 30px;
+
+}
+.card{
+  /* padding: 30px; */
+
+  width: 388px;
+  height:209px;
+  border-radius: 10px;
+}
+.cardText{
+  color: #1C4980;
+
+  text-align: center;
+  /* background-color: rgba(246, 246, 246, 0.527); */
+  height:inherit;
+  background-color: rgb(246, 246, 246);;
+}
+.para{
+  font-weight: 500px;  
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 50%;
+  color: blue;
+  background-color:white;
+}
+.card_head{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.card_text{
+  color: #1C4980;
+
+  border-bottom: 2px dashed rgb(232, 230, 230);
+}
+.card_text p{
+  font-size: larger;
+}
+.card_footer{
+  color: #1C4980;
+
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_details{
+  display: flex;
+  gap: 10px;
+}
+.share_btn{
+  border: 1px solid #1C4980;
+  color:blue;
+  display: flex;
+  padding: 2px 8px 2px 6px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
